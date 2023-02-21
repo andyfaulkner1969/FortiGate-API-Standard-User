@@ -5,13 +5,13 @@ import json
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-host = "10.10.90.1"
+host = "x.x.x.x"
 passwd = "XXXXXX"
 
 def fgt_login():
 	global host, passwd
 	payload = {
-		"username" : "andyf",
+		"username" : "<username>",
 		"secretkey" : passwd
 	}
 	try:
